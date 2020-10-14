@@ -1,0 +1,103 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #294069;
+  padding: 10px 17px;
+}
+
+p, h1, h2 {
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 550;
+}
+
+p {
+  font-size: 15px;
+  color: #BFD2F3
+}
+
+.workspace {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 35%;
+}
+
+.app-header h1 {
+  display: inline-block;
+  margin-left: 7px;
+  vertical-align: -3px;
+}
+
+.workspace .inactive {
+  display: block;
+  background-color: #F15151;
+  border-radius: 13px;
+  border: 5px solid #603D5A;
+  box-sizing: border-box;
+  padding: 3px 4px 1px 6px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.workspace .inactive span {
+  font-weight: 600;
+}
+
+.server {
+  margin-top: 20px;
+}
+
+.server-header h2, .server-logo {
+  display: inline-block;
+}
+
+.server-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.server-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+}
+
+.server-number span{
+  margin-right: -3px;
+  vertical-align: 1px;
+}
+
+.sites {
+  margin-top: 11px;
+}
+
+.site {
+  margin-top: 10px;
+}
+
+.site-status {
+  font-weight: 800;
+  vertical-align: middle;
+}
+
+div.site.active .site-status {
+  color: #09FF84;
+}
+
+div.site.inactive .site-name {
+  color: #DD5860;
+}
+
+
